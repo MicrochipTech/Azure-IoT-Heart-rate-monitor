@@ -20,3 +20,16 @@ Flash the SD card image into a micro SD card using etcher:
 https://www.balena.io/etcher/
 
 username: root
+
+# Connect to Wi-Fi
+
+Make sure WILC SD is inserted, Make sure the AP has the following:
+SSID: MASTERS
+Passphrase: microchip
+
+The image will auto connect to the above on boot. 
+
+if the AP was not up at boot, or you wish to connect to another AP, use:
+killall wpa_supplicant udhcpc
+ch iot8
+./start_sta_pass_args.sh SSID Password
