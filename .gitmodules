@@ -1,0 +1,3 @@
+[submodule "Heart-rate-web-app"]
+	path = Heart-rate-web-app
+	url = https://github.com/MicrochipTech/Heart-rate-web-app.git
