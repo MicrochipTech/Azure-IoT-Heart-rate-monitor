@@ -37,3 +37,9 @@ if the AP was not up at boot, or you wish to connect to another AP, use:
 1. killall wpa_supplicant udhcpc
 2. cd iot8
 3. ./start_sta_pass_args.sh SSID Password
+
+# Heart rate monitoring
+1. Edit demo/SendDataToAzureCloud.py line 20 with your device connection string
+2. Edit demo/SendDataToAzureCloud.py line 91 with your device ID
+3. Edit Heart-rate-web-app/public/javascript/index.js line 136 with the device ID
+4. Create an Azure Webapp with the repo at Heart-rate-web-app follow this (tutorial|https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-live-data-visualization-in-web-apps)
