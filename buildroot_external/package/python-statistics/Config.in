@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_STATISTICS
+	bool "python-statistics"
+	select BR2_PACKAGE_PYTHON_DOCUTILS # runtime
+	help
+	  A Python 2.* port of 3.4 Statistics Module.
+
+	  UNKNOWN

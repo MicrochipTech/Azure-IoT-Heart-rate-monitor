@@ -1,0 +1,5 @@
+config BR2_PACKAGE_PYTHON_HRCLICKBOARD
+	bool "python-hrclickboard"
+	select BR2_PACKAGE_PYTHON_STATISTICS
+	help
+	  SDK for communicating with Heart Rate click board.

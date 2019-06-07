@@ -1,0 +1,12 @@
+source "$BR2_EXTERNAL_HRWILC_PATH/package/wilc-firmware/Config.in"
+source "$BR2_EXTERNAL_HRWILC_PATH/package/websocket/Config.in"
+source "$BR2_EXTERNAL_HRWILC_PATH/package/bt_app/Config.in"
+
+source "$BR2_EXTERNAL_HRWILC_PATH/package/python-awsiotpythonsdk/Config.in"
+source "$BR2_EXTERNAL_HRWILC_PATH/package/azure-iot-sdk-python/Config.in"
+source "$BR2_EXTERNAL_HRWILC_PATH/package/python-hrclickboard/Config.in"
+source "$BR2_EXTERNAL_HRWILC_PATH/package/python-statistics/Config.in"
+
+source "$BR2_EXTERNAL_HRWILC_PATH/package/python-pip/Config.in"
+
+

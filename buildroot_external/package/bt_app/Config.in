@@ -1,0 +1,5 @@
+config BR2_PACKAGE_BT_APP
+	bool "bt-app"
+	help
+	  BT application
+

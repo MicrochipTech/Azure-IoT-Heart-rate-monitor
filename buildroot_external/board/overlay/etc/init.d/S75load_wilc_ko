@@ -1,0 +1,13 @@
+#!/bin/sh
+case "$1" in
+        start)
+                modprobe wilc-sdio.ko
+                ;;
+        stop)
+                modprobe -r wilc-sdio.ko
+                ;;
+esac
+
+exit 0
+
+

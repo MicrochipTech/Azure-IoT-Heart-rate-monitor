@@ -1,0 +1,14 @@
+#!/bin/sh
+case "$1" in
+        start)
+		echo 3 > /proc/sys/kernel/printk                
+		sh /root/iot8/start_sta_pass_args.sh MASTERS microchip
+                ;;
+        stop)
+                ifconfig wlan0 down
+                ;;
+esac
+
+exit 0
+
+

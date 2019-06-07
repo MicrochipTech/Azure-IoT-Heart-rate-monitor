@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_AWSIOTPYTHONSDK
+	bool "python-awsiotpythonsdk"
+	help
+	  SDK for connecting to AWS IoT using Python.
+
+	  https://github.com/aws/aws-iot-device-sdk-python.git

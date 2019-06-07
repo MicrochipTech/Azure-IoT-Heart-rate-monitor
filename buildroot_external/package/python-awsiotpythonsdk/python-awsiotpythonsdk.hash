@@ -1,0 +1,4 @@
+# md5 from https://pypi.python.org/pypi/AWSIotPythonSDK/json, sha256 locally computed
+md5	44f0d90b49b2d79db86fcf3d4e86f30d  AWSIoTPythonSDK-1.4.4.tar.gz
+sha256	233944cfd317ba8174543e30db84d2895305b3e05bf255ecdae19590c933d03c  AWSIoTPythonSDK-1.4.4.tar.gz
+sha256	799376bcfdfb8ceb0e9b68681eee012a106cd87bb694bab649d598f8cbfda16b  LICENSE.txt

@@ -1,0 +1,12 @@
+source "package/wilc-firmware/Config.in"
+source "package/websocket/Config.in"
+source "package/bt_app/Config.in"
+
+source "package/python-awsiotpythonsdk/Config.in"
+source "package/azure-iot-sdk-python/Config.in"
+source "package/python-hrclickboard/Config.in" 
+source "package/python-statistics/Config.in"
+
+source "package/python-pip/Config.in"
+
+

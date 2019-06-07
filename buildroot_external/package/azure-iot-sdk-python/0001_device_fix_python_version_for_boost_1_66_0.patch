@@ -1,0 +1,13 @@
+diff --git a/azure-iot-sdk-python-release_2019_01_03/device/iothub_client_python/CMakeLists.txt b/azure-iot-sdk-python-release_2019_01_03/device/iothub_client_python/CMakeLists.txt
+index 944c35d76d..3c6437d9cd 100644
+--- azure-iot-sdk-python-release_2019_01_03/device/iothub_client_python/CMakeLists.txt
++++ azure-iot-sdk-python-release_2019_01_03/device/iothub_client_python/CMakeLists.txt
+@@ -47,6 +47,8 @@ else()
+     # older boost-python libs didn't support versions
+     if (${build_python} STREQUAL "2.7")
+         find_package(Boost COMPONENTS python)
++    elseif (${build_python} STREQUAL "3.6")
++        find_package(Boost COMPONENTS python3)
+     else()
+         # Remove the period from python version for boost component
+         string(REPLACE "." "" boost_python ${build_python})
