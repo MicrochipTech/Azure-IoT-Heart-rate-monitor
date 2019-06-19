@@ -25,7 +25,7 @@ https://microchiptechnology-my.sharepoint.com/:u:/g/personal/amr_sayed_microchip
 - SD card image based on python 3.6:
 https://microchiptechnology-my.sharepoint.com/:u:/g/personal/amr_sayed_microchip_com/EVdhOE3SZ7JGtXboZA2t1J8BAw0J9D9hu2ZUVzz7B4hM1w?download=1
 
-**For SAMA5D27-WLSOM-EK:**
+**For SAMA5D27-WLSOM1-EK:**
 
 - SD card image based on python 3.6:
 https://microchiptechnology-my.sharepoint.com/:u:/g/personal/amr_sayed_microchip_com/EZ3m_19-bXNIlJgBcuhVaH8Bw3zFIO1dOErn56MOrKWr9Q?download=1
