@@ -45,17 +45,15 @@ username: root
 
 # Connect to Wi-Fi
 
-Make sure WILC SD is inserted, Make sure the AP has the following:
-
+1. Make sure WILC SD is inserted.
+2. The image will connect automatically to the following credentials:
 **SSID**: MASTERS
-**Passphrase**: microchip
-
-The image will auto connect to the above on boot. 
-
-if the AP was not up at boot, or you wish to connect to another AP, use:
-1. killall wpa_supplicant udhcpc
-2. cd iot8
-3. ./start_sta_pass_args.sh SSID Password
+**Passphrase**: microchip 
+3. if the AP was not up at boot, or you wish to connect to another AP, use:
+  * killall wpa_supplicant udhcpc
+  * cd iot8
+  * ./start_sta_pass_args.sh SSID Password
+ 
 
 # Heart rate monitoring
 1. Edit demo/SendDataToAzureCloud.py line 20 with your device connection string
