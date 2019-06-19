@@ -1,8 +1,10 @@
 # Azure-IoT-Heart-rate-monitor
-Monitor heart rate using Azure IoT hub and web apps
+Monitor heart rate using Azure IoT hub and web apps.
 
 
-**The project uses:**
+# Setup options
+
+**1. SAMA5D27-SOM1-EK:**
 
 - SAMA5D2 SOM EK:
 https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/ATSAMA5D27-SOM1-EK1
@@ -13,20 +15,26 @@ https://www.microchip.com/developmenttools/ProductDetails/AC164158
 - Mikroe-2000 heart rate click board:
 https://www.mikroe.com/heart-rate-click
 
-![image](https://user-images.githubusercontent.com/44651700/58664573-cb35d280-82e3-11e9-8b88-c12f34b2e68e.png)
+<img src="images/sama5d27-som1-ek.png" width="500" >
 
-# Download SD card demo image from:
+**2. SAMA5D27-WLSOM1-EK:**
+
+- SAMA5D2 SOM EK:
+
+- Mikroe-2000 heart rate click board:
+https://www.mikroe.com/heart-rate-click
+
+<img src="images/sama5d27-wlsom1-ek.png" width="500" >
+
+# Demo images
 
 **For SAMA5D27-SOM1-EK:**
-
 - SD card image based on python 2.7:
 https://microchiptechnology-my.sharepoint.com/:u:/g/personal/amr_sayed_microchip_com/EdWcwHJN5LtLs46PX2JcC14BeDvpJ_0lPJGyeqve5EsJxg?download=1
-
 - SD card image based on python 3.6:
 https://microchiptechnology-my.sharepoint.com/:u:/g/personal/amr_sayed_microchip_com/EVdhOE3SZ7JGtXboZA2t1J8BAw0J9D9hu2ZUVzz7B4hM1w?download=1
 
 **For SAMA5D27-WLSOM1-EK:**
-
 - SD card image based on python 3.6:
 https://microchiptechnology-my.sharepoint.com/:u:/g/personal/amr_sayed_microchip_com/EZ3m_19-bXNIlJgBcuhVaH8Bw3zFIO1dOErn56MOrKWr9Q?download=1
 
