@@ -60,3 +60,6 @@ username: root
 2. Edit demo/SendDataToAzureCloud.py line 91 with your device ID
 3. Edit Heart-rate-web-app/public/javascript/index.js line 136 with the device ID
 4. Create an Azure Webapp with the repo at Heart-rate-web-app follow this (tutorial|https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-live-data-visualization-in-web-apps)
+
+# Sample output
+![image](https://user-images.githubusercontent.com/44651700/59806727-43bbfd80-92aa-11e9-9663-16e127ccd3bb.png)
