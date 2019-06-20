@@ -41,7 +41,7 @@ Username: root
 
 # Connect to Wi-Fi
 
-1. Make sure WILC SD is inserted (if using SAMA6D27-SOM1-EK).
+1. Make sure WILC SD is inserted (if using SAMA5D27-SOM1-EK).
 2. The image will connect automatically to the following credentials:
 **SSID**: MASTERS
 **Passphrase**: microchip 
