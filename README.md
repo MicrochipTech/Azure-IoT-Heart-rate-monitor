@@ -37,11 +37,11 @@ https://microchiptechnology-my.sharepoint.com/:u:/g/personal/amr_sayed_microchip
 Flash the SD card image into a micro SD card using etcher:
 https://www.balena.io/etcher/
 
-username: root
+Username: root
 
 # Connect to Wi-Fi
 
-1. Make sure WILC SD is inserted.
+1. Make sure WILC SD is inserted (if using SAMA6D27-SOM1-EK).
 2. The image will connect automatically to the following credentials:
 **SSID**: MASTERS
 **Passphrase**: microchip 
