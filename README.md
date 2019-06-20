@@ -57,4 +57,5 @@ username: root
 4. Create an Azure Webapp with the repo at Heart-rate-web-app follow this (tutorial|https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-live-data-visualization-in-web-apps)
 
 # Sample output
-![image](https://user-images.githubusercontent.com/44651700/59806727-43bbfd80-92aa-11e9-9663-16e127ccd3bb.png)
+<img src="images/bmp_and_die_temperature.png" width="800" >
+<img src="images/beats.png" width="800" >
