@@ -1,0 +1,11 @@
+--- HRClickBoard/HRClickBoard/hr_click_board.py	2019-06-19 16:09:23.000000000 -0700
++++ HRClickBoard/HRClickBoard/hr_click_board.py	2019-06-20 08:15:32.056488824 -0700
+@@ -11,7 +11,7 @@
+ from .MAX30100_definitions import *            #MAX30100 IC registers definitions
+ 
+ #Python SMBUS for I2C connection to click board
+-SMBUS_ID = 2                                   #Bus ID (1 or 2)
++SMBUS_ID = 1                                   #Bus ID (1 or 2)
+ bus = smbus.SMBus(SMBUS_ID)                        #Bus on which click board is connected
+ 
+ #History of samples, timestamps and BPM

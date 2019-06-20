@@ -27,7 +27,7 @@ RECEIVE_CALLBACKS = 0
 RECEIVE_CONTEXT = 0
 
 # Define the JSON message to send to IoT Hub.
-MSG_TXT = "{\"temperature\": %.2f,\"heartRate\": %.2f,\"beats\": %s}"
+MSG_TXT = "{\"id\": %s,\"temperature\": %.2f,\"heartRate\": %.2f,\"beats\": %s}"
 
 def send_confirmation_callback(message, result, user_context):
     print ( "IoT Hub responded to message with status: %s" % (result) )
@@ -88,10 +88,11 @@ def iothub_client_send_telemetry_run():
 
         while True:
             # Build the message with simulated telemetry values.
+            deviceid = '\"MyDevice\"'
             temperature = click.read_temp()
             heartRate = click.calculate_bpm().bpm
             beats = click.calculate_bpm().beats
-            msg_txt_formatted = MSG_TXT % (temperature, heartRate,beats)
+            msg_txt_formatted = MSG_TXT % (deviceid, temperature, heartRate,beats)
             message = IoTHubMessage(msg_txt_formatted)
 
             # Add a custom application property to the message.
