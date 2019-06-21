@@ -76,8 +76,8 @@ If you need to change/build-up on the demo, then you need bascially to get the s
 5. Do your modifications as desired in external buildroot Azure-IoT-Heart-rate-monitor/buildroot_external/
 6. Build buildroot using your modified external buildroot:
    - For SAMA5D27-SOM1-EK:
-   > BR2_EXTERNAL=../Azure-IoT-Heart-rate-monitor/buildroot_external/ make sama5d27_wlsom1_ek_defconfig
-   - For SAMA5D27-WLSOM1-EK:
    > BR2_EXTERNAL=../Azure-IoT-Heart-rate-monitor/buildroot_external/ make sama5d27_som1_ek_wilc_defconfig
+   - For SAMA5D27-WLSOM1-EK:
+   > BR2_EXTERNAL=../Azure-IoT-Heart-rate-monitor/buildroot_external/ make sama5d27_wlsom1_ek_defconfig
    - Then,
    > make
