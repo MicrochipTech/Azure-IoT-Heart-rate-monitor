@@ -64,9 +64,9 @@ Username: root
 If you need to change/build-up on the demo, then you need bascially to get the suitable Linux4sam buildroot, clone current repo, add your changes to the external buildroot found under current repo and then rebuild. Please follow the following steps:
 1. Clone Linux4sam buildroot:
    - For SAMA5D27-SOM1-EK: 
-   > clone https://github.com/linux4sam/buildroot-at91.git -b linux4sam_6.0
+     > clone https://github.com/linux4sam/buildroot-at91.git -b linux4sam_6.0
    - For SAMA5D27-WLSOM1-EK: 
-   > clone https://github.com/linux4sam/buildroot-at91.git -b sama5d27wlsom1ek_1.0
+     > clone https://github.com/linux4sam/buildroot-at91.git -b sama5d27wlsom1ek_1.0
 2. Get the external buildroot by cloning this repo:
    > clone https://github.com/MicrochipTech/Azure-IoT-Heart-rate-monitor.git
 3. Navigate to buildroot directory:
@@ -76,8 +76,8 @@ If you need to change/build-up on the demo, then you need bascially to get the s
 5. Do your modifications as desired in external buildroot Azure-IoT-Heart-rate-monitor/buildroot_external/
 6. Build buildroot using your modified external buildroot:
    - For SAMA5D27-SOM1-EK:
-   > BR2_EXTERNAL=../Azure-IoT-Heart-rate-monitor/buildroot_external/ make sama5d27_som1_ek_wilc_defconfig
+     > BR2_EXTERNAL=../Azure-IoT-Heart-rate-monitor/buildroot_external/ make sama5d27_som1_ek_wilc_defconfig
    - For SAMA5D27-WLSOM1-EK:
-   > BR2_EXTERNAL=../Azure-IoT-Heart-rate-monitor/buildroot_external/ make sama5d27_wlsom1_ek_defconfig
+     > BR2_EXTERNAL=../Azure-IoT-Heart-rate-monitor/buildroot_external/ make sama5d27_wlsom1_ek_defconfig
    - Then,
-   > make
+     > make
