@@ -16,7 +16,7 @@ https://www.mikroe.com/heart-rate-click
 
 **2. SAMA5D27-WLSOM1-EK:**
 
-- SAMA5D2 SOM EK:
+- SAMA5D2 WLSOM EK:
 - Mikroe-2000 heart rate click board:
 https://www.mikroe.com/heart-rate-click
 
