@@ -1,3 +1,5 @@
+***Note: The current WILC1000/WILC3000 Linux driver stable release can be found at [Linux4SAM GitHub repo](https://github.com/linux4sam/linux-at91/tree/master/drivers/staging/wilc1000)***
+
 # Azure-IoT-Heart-rate-monitor
 Monitor heart rate with Linux/python based code using Azure IoT hub and web apps.
 
