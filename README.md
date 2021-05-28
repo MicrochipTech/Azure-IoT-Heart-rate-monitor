@@ -85,4 +85,4 @@ If you need to change/build-up on the demo, then you need bascially to get the s
      > make
      
 # Have questions/comments?
-Feel free to reach out to abdelrahman.diab@microchip.com and amr.sayed@microchip.com
+Feel free to reach out to and amr.sayed@microchip.com
