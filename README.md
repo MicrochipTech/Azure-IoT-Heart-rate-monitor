@@ -27,14 +27,11 @@ https://www.mikroe.com/heart-rate-click
 # Demo images
 
 **For SAMA5D27-SOM1-EK:**
-- SD card image based on python 2.7:
-https://microchiptechnology-my.sharepoint.com/:u:/g/personal/amr_sayed_microchip_com/EdWcwHJN5LtLs46PX2JcC14BeDvpJ_0lPJGyeqve5EsJxg?download=1
-- SD card image based on python 3.6:
-https://microchiptechnology-my.sharepoint.com/:u:/g/personal/amr_sayed_microchip_com/EVdhOE3SZ7JGtXboZA2t1J8BAw0J9D9hu2ZUVzz7B4hM1w?download=1
+- SD card image based on python 2.7 [here](https://microchiptechnology.sharepoint.com/:u:/s/MWS/EVd4iN6guzFMtNAh665ZllsBRVLr4-j4aDYehvdxCxIZtg?e=DbfxAn)
+- SD card image based on python 3.6 [here](https://microchiptechnology.sharepoint.com/:u:/s/MWS/EbVm2gyXFCxHspNpSImwc1IBDv2wu6Q2De5Es9YzRMVl1g?e=UZFwHK)
 
 **For SAMA5D27-WLSOM1-EK:**
-- SD card image based on python 3.6:
-https://microchiptechnology-my.sharepoint.com/:u:/g/personal/amr_sayed_microchip_com/EZ3m_19-bXNIlJgBcuhVaH8Bw3zFIO1dOErn56MOrKWr9Q?download=1
+- SD card image based on python 3.6 [here](https://microchiptechnology.sharepoint.com/:u:/s/MWS/EcHrJHDDnPhIjMWpCz7iABwBJEcWlRgyuEYdNCve47M2LQ?e=GensV5)
 
 Flash the SD card image into a micro SD card using etcher:
 https://www.balena.io/etcher/
